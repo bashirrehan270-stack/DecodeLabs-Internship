@@ -1,0 +1,25 @@
+## Technical Tools & Functions
+
+* **Python Engine (Core Interpreter):** Runs the main program and manages variable memory blocks.
+* **JSON Module (`json`):** Converts in-memory dictionary data into a text file to prevent data loss.
+* **System Module (`os`):** Checks the local disk to find and reload existing database files on startup.
+* **Input Reader (`input()`):** Captures text directly from the user's keyboard inside the terminal.
+* **Enumerator (`enumerate()`):** Automatically adds orderly line numbers (1, 2, 3) to tasks during display.
+* **Modulo Operator (`%`):** Divides row IDs mathematically to distribute data into separate buckets.
+
+## System Workflow (How It Works)
+
+* **Step 1: System Boot & Load** 
+    The program starts and uses the `os` module to scan the disk. If a `todo_data.json` file exists, the `json` module reloads the past data into memory shards.
+    
+* **Step 2: User Input Loop** 
+    An infinite `while` loop runs an interactive menu on the screen, waiting for the user to select an operational code (1, 2, or 3) using `input()`.
+    
+* **Step 3: Data Sharding & Mapping** 
+    When a new task is added, the system generates a unique ID and uses the `%` modulo operator to route the task into one of three distinct data buckets.
+    
+* **Step 4: Storage Persistence** 
+    The engine immediately updates the local storage file using `json.dump()`, securing the data against sudden program termination or power loss.
+    
+* **Step 5: Ordered Data Output** 
+    When the user requests to view tasks, the system pulls data from all buckets, sorts them sequentially by ID, and displays them cleanly using `enumerate()`.
