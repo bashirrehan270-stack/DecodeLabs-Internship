@@ -31,3 +31,11 @@ This project showcases fundamental software development concepts:
    ```bash
    python main.py
    ```
+
+
+
+
+https://github.com/user-attachments/assets/f5f5f335-ec20-42a5-b11a-ecff944ff74a
+
+
+
