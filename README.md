@@ -8,7 +8,8 @@ Welcome to my portfolio! I started my internship journey at **Decods Labs** on *
 
 Here is my official selection and offer letter from Decods Labs for this internship role:
 
-![Decods Labs Offer Letter]([Your Offer Letter _ Decode Labs.pdf](https://github.com/user-attachments/files/30352560/Your.Offer.Letter._.Decode.Labs.pdf)
+![Decods Labs Offer Letter](<img width="2480" height="3505" alt="PDFReader_20260724_2022_01" src="https://github.com/user-attachments/assets/0dd23866-258b-4325-ac5a-81965b2261b1" />
+
 
 
 ## 📅 Internship Timeline & Progress
