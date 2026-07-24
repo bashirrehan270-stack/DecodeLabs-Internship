@@ -44,3 +44,13 @@ A terminal-based Python application that uses Object-Oriented Programming (OOP) 
 
 ## 📜 License
 This project is open-source and free to use.
+
+
+
+
+[screen-capture (1).webm](https://github.com/user-attachments/assets/6ff060e9-1c05-496b-8e26-8f8af486eed7)
+
+
+
+
+
